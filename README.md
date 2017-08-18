@@ -1,6 +1,6 @@
-# star-wars-game
+# Star Wars Game
 
-###Star Wars Game in jQuery
+### Star Wars Game in jQuery
 
 
 When the game starts, the player will choose a character by clicking on the fighter's picture. The player will fight as that character for the rest of the game.
