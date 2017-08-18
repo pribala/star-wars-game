@@ -86,12 +86,13 @@ $(document).ready(function() {
 					$(".message").html("You have defeated "+ opponentCharacter+" Chose another opponent!");
 						$(".defenderCharacter").empty();
 					if ( $('.enemy').children().length == 0 ) {
-				    	$(".message").html("You have won!");
+				    	$(".message").html("You have won! Restart the game to play again.");
 				    }	
 				}
 			}else {
-				$(".message").html("You have been defeated!")
+				$(".message").html("You have been defeated! Restart the game to play again.")
 				choseAttacker = false;
+				
 			}
 		}
 	});	
