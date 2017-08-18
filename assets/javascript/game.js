@@ -92,7 +92,7 @@ $(document).ready(function() {
 			}else {
 				$(".message").html("You have been defeated! Restart the game to play again.")
 				choseAttacker = false;
-				
+				$(".defenderCharacter").empty();
 			}
 		}
 	});	
